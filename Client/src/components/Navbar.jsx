@@ -5,7 +5,7 @@ const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   return (
-    <nav className="fixed w-full bg-slate-400 shadow-lg">
+    <nav className="w-full fixed top-0 left-0 right-0 z-50 bg-slate-400 shadow-lg">
       <div className="max-w-7xl mx-2 px-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Left side - Project Name */}

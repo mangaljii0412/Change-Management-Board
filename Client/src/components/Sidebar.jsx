@@ -10,12 +10,12 @@ const Sidebar = () => {
   };
 
   const navItems = [
-    { path: '/dashboard', name: 'Dashboard', icon: '📊' },
+    { path: '/', name: 'Dashboard', icon: '📊' },
     { path: '/change-update', name: 'Change Update', icon: '📝' },
   ];
 
   return (
-    <div className="pt-16 bg-slate-300 text-white w-64 min-h-screen flex flex-col">
+    <div className="pt-16 bg-slate-300 text-white min-h-screen flex flex-col w-64">
       {/* Filter Button */}
       <div className="p-4 border-b border-slate-700">
         <button
